@@ -1,0 +1,64 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ff9900;
+  color: #300d38;
+  font-family: "IBM Plex Sans", "sans-serif";;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 300px;
+  width: 50vw;
+  padding: 2.5rem;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.form i {
+  margin-left: -30px;
+  cursor: pointer;
+}
+
+.form-group {
+  margin: 0.25rem;
+}
+
+.text-accent {
+  color:rgb(242 86 80/1);
+}
+
+.pwd-input {
+  display: flex;
+  align-items: center;
+}
+
+#password {
+  padding-right: 2.2rem;
+}
+
+.submit-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.5rem;
+}
+
+#submit {
+  background-color: #300d38;
+  color: white;
+  font-family: "IBM Plex Sans Condensed", "sans-serif";
+  padding-left: 4rem;
+  padding-right: 4rem;
+  font-size: .875rem;
+  line-height: 1.25rem;
+}
+
+#submit:hover {
+  background-color: #ff9900;
+  color: #300d38;
+}
